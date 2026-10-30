@@ -251,21 +251,21 @@ const PROJECTS = [
   {
     title: 'Sertifikat Magang Kementerian Keuangan',
     images: [
-      `${import.meta.env.BASE_URL}/images/fotokemenkeu.jpeg`,
-      `${import.meta.env.BASE_URL}/images/sertifkemenkeu.jpg`,
+      `${import.meta.env.BASE_URL}images/fotokemenkeu.jpeg`,
+      `${import.meta.env.BASE_URL}images/sertifkemenkeu.jpg`,
     ],
     tech: [],
     status: '',
   },
   {
     title: 'Sertifikat IT BootCamp',
-    images: [`${import.meta.env.BASE_URL}/images/sertifbootcamp.jpg`],
+    images: [`${import.meta.env.BASE_URL}images/sertifbootcamp.jpg`],
     tech: [],
     status: '',
   },
   {
     title: 'Sertifikat Web Programming Dicoding',
-    images: [`${import.meta.env.BASE_URL}/images/sertifdicoding.jpg`],
+    images: [`${import.meta.env.BASE_URL}images/sertifdicoding.jpg`],
     tech: [],
     status: '',
   },
@@ -646,7 +646,7 @@ const ProjectSlider = ({ images, title }) => {
 };
 
 
-//   return (
+
 
 // <section id="projects" className="py-20">
 //   <div className="max-w-6xl mx-auto px-6">
